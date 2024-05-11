@@ -2,6 +2,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { NgModel } from "@angular/forms";
 import { RouterModule } from "@angular/router";
 
+import { FormsModule } from "@angular/forms";
 import { AppComponent } from "./app.component";
 import { RegisterComponent } from "./register/register.component";
 import { NavbarComponent } from "./navbar/navbar.component";
@@ -22,9 +23,12 @@ import { approutes } from "./app.routes";
     ],
     imports: [
         BrowserModule,
-        RouterModule.forRoot(approutes)
+        RouterModule.forRoot(approutes),
+        FormsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
 
 })
+
+export class AppModule { }
