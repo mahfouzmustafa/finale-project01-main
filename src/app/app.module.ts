@@ -13,7 +13,7 @@ import { approutes } from "./app.routes";
 
 @NgModule({
 
-    
+
 
     declarations: [
         AppComponent,
@@ -34,5 +34,6 @@ import { approutes } from "./app.routes";
 })
 
 export class AppModule { }
+
 
 
