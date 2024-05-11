@@ -13,6 +13,7 @@ import { approutes } from "./app.routes";
 
 @NgModule({
 
+    
     declarations: [
         AppComponent,
         RegisterComponent,
